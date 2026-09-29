@@ -1,0 +1,36 @@
+site_name: Orðskýringar Hagstofunnar
+site_url: https://sitename.example
+docs_dir: docs
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.footer
+  palette:
+    - scheme: default
+      primary: white
+      accent: light-blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: white
+      accent: light-blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  logo: assets/logo.png
+
+plugins: 
+  - search
+  - awesome-pages
+
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+  

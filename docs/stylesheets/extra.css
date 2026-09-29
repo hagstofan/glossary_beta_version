@@ -1,0 +1,21 @@
+.md-nav__link--active {
+  color: #005485 !important;
+}
+
+/* Light mode accent */
+[data-md-color-scheme="default"] {
+  --md-accent-fg-color: #00C8ff;
+  --md-accent-fg-color--transparent: rgba(14, 165, 233, 0.15);
+}
+
+/* Dark mode accent */
+[data-md-color-scheme="slate"] {
+  --md-accent-fg-color: #00C8ff;
+  --md-accent-fg-color--transparent: rgba(56, 189, 248, 0.18);
+}
+
+
+/* Light mode: links in page content */
+[data-md-color-scheme="default"] .md-typeset a {
+  color: #005485;
+}
